@@ -61,10 +61,7 @@ margin-right: 10px;
     font-weight: 800;
 }
 
-.header__optionBasket{
-    display: flex;
-    
-}
+
 
 .mobile-menu-icon {
     display:none;
@@ -84,8 +81,14 @@ margin-right: 10px;
     display:flex;
     position:absolute;
     top:-7px;
-    justify-content:space-evenly;
+    /* justify-content:space-evenly; */
     margin:0 30%;
+}
+
+.header__optionBasket{
+    display: flex;
+    padding:0 30px;
+    justify-content: left;
 }
 
 .header{
