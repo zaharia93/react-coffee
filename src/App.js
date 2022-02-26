@@ -11,7 +11,7 @@ import CookieConsent from "react-cookie-consent";
 
 function App() {
 
-const [{user}, dispatch] = useStateValue();
+const [{}, dispatch] = useStateValue();
 useEffect(() => {
  const unsubscribe = auth.onAuthStateChanged((authUser) => {
    if (authUser) {

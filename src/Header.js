@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
-import { Search, ShoppingBasket, Close, Dehaze, } from "@material-ui/icons";
+import { Search, ShoppingBasket,  } from "@material-ui/icons";
 
 import { useStateValue } from "./StateProvider";
 import { auth } from "./firebase";
